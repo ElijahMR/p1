@@ -1,0 +1,31 @@
+html {
+	font-family: 'Encode Sans Expanded', Arial, Helvetica, sans-serif;
+	background: #0f0f0f;
+	color: black;
+	text-align: center;
+}
+body {
+    margin: 0;
+}
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.flex-container div {
+	width: 50%;
+	margin-top: 2em;
+	background: white;
+	padding: 2em;
+	border-radius: 0.5em;
+	overflow: auto;
+}
+blockquote {
+	padding: 0.1em;
+	background: #ebebeb;
+	border: 1px solid #d0d0d0;
+	border-radius: 0.5em;
+}
+img {
+	height: 50em;
+}

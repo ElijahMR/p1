@@ -5,7 +5,7 @@ html {
 	text-align: center;
 }
 body {
-    margin: 0;
+	margin: 0;
 }
 .flex-container {
 	display: flex;
@@ -28,4 +28,10 @@ blockquote {
 }
 img {
 	height: 50em;
+}
+@media only screen and (orientation: portrait) {
+	.flex-container div {
+		font-size: 2em;
+		width: 100%;
+	}
 }
